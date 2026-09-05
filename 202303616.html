@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Profile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>202303616 - Student Number</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .profile-card {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0 auto 20px auto;
+            overflow: hidden;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin: 10px 0 5px 0;
+        }
+
+        .role {
+            color: #e74c3c;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        .bio {
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Im Sherwin A Guevarra Jr</h1>
-    <p><storng>Course: </storng>BSIT 4-3</p>
-    <p><storng>Year: </storng>4th year</p>
-    <p><strong>Student:</strong>202303616</p>
+    <div class="profile-card">
 
-    <h2>About Me</h2>
-    <p>I am a student who enjoys learning new things and improving my skills.</p>
+        <div class="avatar">
+            <img src="person.png" alt="Profile Picture">
+        </div>
+
+        <h1>SHERWIN GUEVARRA</h1>
+
+        <div class="role">BSIT 4-3</div>
+
+        <p class="bio">
+            Hello! I am a Bachelor of Science in Information Technology
+            student from BSIT 4-3. I am Sherwin Gueavrra willing to new learn or things about github
+            and improving my skills.
+        </p>
+
+        <a href="index.html" class="back-link">
+          <a> </a> Back to Directory
+        </a>
+
+    </div>
 
 </body>
 </html>
